@@ -2,7 +2,7 @@ const WebSocket = require("ws");
 
 const AIS_URL = "wss://stream.aisstream.io/v0/stream";
 const API_KEY = "c5d0b93872e481128d0f65f9c7c2b47a61e8ff15";
-const BOUNDING_BOX = [[[53.0, 9.5], [66.0, 30.0]]];
+const BOUNDING_BOX = [[[-90, -180], [90, 180]]];
 const FILTERS = ["PositionReport", "StaticDataReport"];
 const PORT = process.env.PORT || 8080;
 
